@@ -1,4 +1,4 @@
-#GetAndCleanDataProject
+#Get And Clean Data Project
 
 This project aims at getting data from an online source and cleaning the data set. 
 
