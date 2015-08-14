@@ -19,6 +19,3 @@ Step - 8 : From all the readings choose the columns which have mean or std in th
 Step - 9 : Add detailed acitivity description in a separate column.
 
 Step - 10 : As the last requirement suggests, create a new data table after grouping and taking averages of all the columns.
-
-#Result of the script
-The tidy.txt contains the cleaned data set downloaded from the Nike website. It consists of *89 variables* and *180 rows* (header excluded)
