@@ -9,27 +9,8 @@ The run_analysis.R script does the following tasks:
 <li> Appropriately labels the data set with descriptive variable names. 
 <li> From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-#Workings of the script
-
-Step - 1 : Download the zipped data set from the given URL
-
-Step - 2 : Create a new working directory called "getcleandata" and extract the contents there.
-
-Step - 3 : From the train and test directories load the gyroscope and accelerometer readings into a data table after rbind.
-
-Step - 4 : From the train and test directories get the activity labels and load it into a data table after rbind.
-
-Step - 5 : Column bind the labels and the readings tables.
-
-Step - 6 : Load the names of the columns from the features.txt.
-
-Step - 7 : Clean the feature names by removing unwanted punctuations and converting it to lower case.
-
-Step - 8 : From all the readings choose the columns which have mean or std in the name.
-
-Step - 9 : Add detailed acitivity description in a separate column.
-
-Step - 10 : As the last requirement suggests, create a new data table after grouping and taking averages of all the columns.
+#Executing the script
+THe run_analysis.R is the only script required and present to download and process the data to transform it into the required format. The details of the workings of the script can be found in the codebook.
 
 #Result of the script
 The tidy.txt contains the cleaned data set downloaded from the Nike website. It consists of *89 variables* and *180 rows* (header excluded)
